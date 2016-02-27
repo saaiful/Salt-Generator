@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Salt Generator</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div align="center">
+			<div class="btn-group" role="group" aria-label="...">
+				<button type="button" class="btn btn-default set">[A-Za-z0-9]</button>
+				<button type="button" class="btn btn-default set">[A-Za-z0-9] + Symbol</button>
+				<button type="button" class="btn btn-default set">[A-Z]</button>
+				<button type="button" class="btn btn-default set">[a-z]</button>
+				<button type="button" class="btn btn-default set">[0-9]</button>
+			</div>
+		</div>
+
+		<br>
+
+		<div align="center">
+			<div class="btn-group" role="group" aria-label="...">
+				<button type="button" class="btn btn-default size">32</button>
+				<button type="button" class="btn btn-default size">64</button>
+				<button type="button" class="btn btn-default size">128</button>
+				<button type="button" class="btn btn-default size">256</button>
+			</div>
+		</div>
+
+		<br>
+
+		<div align="center">
+			<div class="btn-group" role="group" aria-label="...">
+				<button type="button" class="btn btn-default quantity">5</button>
+				<button type="button" class="btn btn-default quantity">10</button>
+				<button type="button" class="btn btn-default quantity">15</button>
+				<button type="button" class="btn btn-default quantity">20</button>
+			</div>
+		</div>
+
+		<br>
+
+		<div id="hash"></div>
+
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="salt.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	</body>
+</html>
